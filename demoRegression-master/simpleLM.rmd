@@ -45,5 +45,13 @@ abline(Neck)
 summary.lm(Neck)
 ```
 
+```{r}
+print("Fourth")
+Weight <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(Weight)
+summary.lm(Weight)
+```
+
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
