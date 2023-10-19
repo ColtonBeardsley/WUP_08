@@ -20,6 +20,7 @@ bears$MONTH<- as.factor(bears$MONTH)
 
 ## Model LENGTH ~ NECK  this is an example  
 
+
 ```{r}
 print("First")
 HeadLen <- lm(LENGTH~HEADLEN,data=bears)
@@ -27,7 +28,6 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(HeadLen)
 summary.lm(HeadLen)
 ```
-
 
 
 
