@@ -37,6 +37,13 @@ abline(Chest)
 summary.lm(Chest)
 ```
 
+```{r}
+print("Third")
+Neck <- lm(LENGTH~NECK,data=bears)
+plot(LENGTH~NECK,data=bears)
+abline(Neck)
+summary.lm(Neck)
+```
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
