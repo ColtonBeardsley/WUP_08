@@ -69,6 +69,10 @@ abline(Age)
 summary.lm(Age)
 ```
 
+## Concluions from data above
 
-## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+The linear regression models for each of the numerical variables are placed above in order with the best correlation.
 
+We tested the residual standard error with the understanding that a lower value is better as well as compared it to the adjusted R-Squared value which we wanted as close to one.
+
+We see that the best predictor of overall length is head length for this set of data.
