@@ -18,7 +18,7 @@ bears$SEX<- as.factor(bears$SEX)
 bears$MONTH<- as.factor(bears$MONTH)
 ```
 
-## Model LENGTH ~ NECK  this is an example  
+## Model LENGTH ~ Head length
 
 
 ```{r}
@@ -29,6 +29,8 @@ abline(HeadLen)
 summary.lm(HeadLen)
 ```
 
+## Chest
+
 ```{r}
 print("Second")
 Chest <- lm(LENGTH~CHEST,data=bears)
@@ -36,6 +38,8 @@ plot(LENGTH~CHEST,data=bears)
 abline(Chest)
 summary.lm(Chest)
 ```
+
+## Neck
 
 ```{r}
 print("Third")
@@ -45,6 +49,8 @@ abline(Neck)
 summary.lm(Neck)
 ```
 
+## Weight
+
 ```{r}
 print("Fourth")
 Weight <- lm(LENGTH~WEIGHT,data=bears)
@@ -52,6 +58,8 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(Weight)
 summary.lm(Weight)
 ```
+
+## Headwth
 
 ```{r}
 print("Fifth")
@@ -61,6 +69,7 @@ abline(HeadWth)
 summary.lm(HeadWth)
 ```
 
+## Age
 ```{r}
 print("Sixth")
 Age <- lm(LENGTH~AGE,data=bears)
@@ -68,6 +77,9 @@ plot(LENGTH~AGE,data=bears)
 abline(Age)
 summary.lm(Age)
 ```
+
+Adjusted R Squared - 0.5073
+Residual Standard Error - 7.511
 
 ## Concluions from data above
 
