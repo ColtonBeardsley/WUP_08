@@ -29,6 +29,9 @@ abline(HeadLen)
 summary.lm(HeadLen)
 ```
 
+Adjusted R Squared - 0.8434
+Residual Standard Error - 4.235
+
 ## Chest
 
 ```{r}
@@ -38,6 +41,9 @@ plot(LENGTH~CHEST,data=bears)
 abline(Chest)
 summary.lm(Chest)
 ```
+
+Adjusted R Squared - 0.7869
+Residual Standard Error - 4.939
 
 ## Neck
 
@@ -49,6 +55,9 @@ abline(Neck)
 summary.lm(Neck)
 ```
 
+Adjusted R Squared - 0.7476
+Residual Standard Error - 5.376
+
 ## Weight
 
 ```{r}
@@ -59,6 +68,9 @@ abline(Weight)
 summary.lm(Weight)
 ```
 
+Adjusted R Squared - 0.7423
+Residual Standard Error - 5.432
+
 ## Headwth
 
 ```{r}
@@ -68,6 +80,9 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(HeadWth)
 summary.lm(HeadWth)
 ```
+
+Adjusted R Squared - 0.5321
+Residual Standard Error - 7.23
 
 ## Age
 ```{r}
